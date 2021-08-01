@@ -1,0 +1,77 @@
+[
+    {
+        "agility": 5,
+        "defense": 9,
+        "health": 12,
+        "lore": 3,
+        "movement": 6,
+        "name": "Nightingale Arsen",
+        "perception": 2,
+        "presence": 6,
+        "strength": 2,
+        "skill": {
+            "flavor": "Nightingale's commanding personality makes her a natural leader.",
+            "name": "Ambitious",
+            "text": "All other allies Gaiin +1 SP. Nightingale Gains +2 SP",
+            "type": "perEncounter"
+        }
+    },
+    {
+        "agility": 4,
+        "defense": 9,
+        "health": 12,
+        "lore": 2,
+        "movement": 6,
+        "name": "Zeke Jeong",
+        "perception": 6,
+        "presence": 2,
+        "strength": 4,
+        "skill": {
+            "flavor": "Zeke's cautious nature helps him to adapt to any situation.",
+            "name": "Nimble Fighter",
+            "text": "Once per turn, Zeke may re-roll his Dodge roll.",
+            "type": "passive"
+        }
+    },
+    {
+        "agility": 1,
+        "defense": 9,
+        "health": 14,
+        "lore": 5,
+        "movement": 6,
+        "name": "Rook Lars",
+        "perception": 2,
+        "presence": 4,
+        "strength": 6,
+        "skill": {
+            "flavor": "Rook's Advancement granted him an unearthly amount of stamina and strength.",
+            "name": "Grand Physique",
+            "text": ["Rook's unmodified maximum HP is 14.", "Rook may equip an additional Consumable.", "Rook ignores the negative to movement from the first instance of HEAVY he has equipped."],
+            "type": "passive"
+        }
+    },
+    {
+        "agility": 6,
+        "defense": 9,
+        "health": 12,
+        "lore": 2,
+        "movement": 6,
+        "name": "Remi Moretti",
+        "perception": 3,
+        "presence": 3,
+        "strength": 4,
+        "skill": [{
+            "cost": 1,
+            "flavor": "Remi's shady past has given her insight.",
+            "name": "Shady Training",
+            "text": "Move 1 space in any direction (including diagonally).",
+            "type": "exhaust"
+        }, {
+            "cost": 2,
+            "flavor": "Remi is gifted with feathered wings that allow her to fly.",
+            "name": "Avian Flight",
+            "text": "Make a MOVE. Remi has Flight for the duration of this movement. This Ability may only be used if Remi has less Damage than half of her total HP.",
+            "type": ""
+        }]
+    }
+]

@@ -1,0 +1,193 @@
+[
+    {
+        "armor": 0,
+        "combo": [
+            {
+                "damage": 0,
+                "die": 2,
+                "flavor": ["Orange"],
+                "itemType": "Finesse",
+                "requirement": ["light"]
+            },
+            {
+                "damage": 1,
+                "die": null,
+                "flavor": ["Your Attack Gain: +1 Physical DMG"],
+                "itemType": null,
+                "requirement": ["sword"]
+            },
+            {
+                "damage": 2,
+                "die": null,
+                "flavor": ["Your Attack Gain: +2 Physical DMG"],
+                "itemType": null,
+                "requirement": ["longSword"]
+            }
+        ],
+        "die": [1],
+        "exhaust": null,
+        "flip": null,
+        "group": "Mundane",
+        "id": 0,
+        "isUnique": false,
+        "name": "Long Sword",
+        "passive": null,
+        "perEncounter": null,
+        "slot": 1,
+        "symbols": [{
+            "symbol": "Shield",
+            "count": 2,
+            "damage": 2,
+            "damageType": "physical"
+        }],
+        "tags": ["sword", "longSword", "double"],
+        "type": "Weapon",
+        "use": "melee"
+    },
+    {
+        "armor": 0,
+        "combo": [
+            {
+                "damage": 0,
+                "die": 1,
+                "flavor": ["Finesse: White"],
+                "itemType": null,
+                "requirement": ["light"]
+            },
+            {
+                "damage": 0,
+                "die": null,
+                "flavor": "Re-roll 1 of your combat Dice",
+                "itemType": "Exhaust",
+                "requirement": ["light"]
+            }
+        ],
+        "die": [0],
+        "exhaust": [
+            {
+                "flavor": "Move 1 space diagonally",
+                "requirement": null
+            }
+        ],
+        "group": "Mundane",
+        "id": 1,
+        "isUnique": false,
+        "name": "Short Sword",
+        "passive": null,
+        "perEncounter": null,
+        "slot": 1,
+        "symbols": [{
+            "symbol": "Shield",
+            "count": 2,
+            "damage": 2,
+            "damageType": "Physical"
+        }, {
+            "symbol": "Star",
+            "count": 1,
+            "damage": 1,
+            "damageType": "Physical"
+        }],
+        "tags": ["sword", "shortSword", "light"],
+        "type": "Weapon",
+        "use": "Melee"
+    },
+    {
+        "armor": 0,
+        "combo": [
+            {
+                "damage": 0,
+                "die": null,
+                "flavor": ["After resolving an Attack you made, if the Attack missed, make an ATK."],
+                "itemType": "Exhaust",
+                "requirement": ["shield", "axe", "sword"]
+            }
+        ],
+        "die": [1],
+        "exhaust": null,
+        "group": "Mundane",
+        "id": 2,
+        "isUnique": false,
+        "name": "Hand Axe",
+        "passive": null,
+        "perEncounter": ["Throw: Purple"],
+        "slot": 1,
+        "symbols": [{
+            "symbol": "Shield",
+            "count": 2,
+            "damage": 2,
+            "damageType": "Physical"
+        }, {
+            "symbol": "Star",
+            "count": 1,
+            "damage": 1,
+            "damageType": "Physical"
+        }],
+        "tags": ["axe", "handAxe"],
+        "type": "Weapon",
+        "use": "Melee"
+    },
+    {
+        "armor": 1,
+        "combo": null,
+        "die": [0],
+        "exhaust": [
+            {
+                "flavor": "Move 1 space diagonally",
+                "requirement": ""
+            }
+        ],
+        "group": "Mundane",
+        "id": 3,
+        "isUnique": false,
+        "name": "Buckler",
+        "passive": [
+            {
+                "flavor": "1 SP: Counter",
+                "itemType": null
+            }
+        ],
+        "perEncounter": null,
+        "slot": 1,
+        "symbols": null,
+        "tags": ["shield", "buckler", "light"],
+        "type": "Weapon",
+        "use": "Melee/Range"
+    },
+    {
+        "armor": 1,
+        "combo": [
+            {
+                "damage": 0,
+                "die": null,
+                "flavor": ["Empower"],
+                "itemType": "Exhaust",
+                "requirement": ["ranged"]
+            },
+            {
+                "damage": 0,
+                "die": 1,
+                "flavor": "White",
+                "itemType": "Finesse",
+                "requirement": ["melee"]
+            }
+        ],
+        "die": [0],
+        "exhaust": [
+            {
+                "flavor": "Counter",
+                "requirement": ""
+            }
+        ],
+        "group": "Mundane",
+        "id": 4,
+        "isUnique": false,
+        "name": "Medium Shield",
+        "passive": null,
+        "perEncounter": null,
+        "slot": 1,
+        "symbols": null,
+        "tags": ["shield", "medium shield"],
+        "type": "Weapon",
+        "use": "Melee/Range"
+    }
+]
